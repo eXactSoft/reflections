@@ -1,18 +1,27 @@
-What happens when you initialize a repository? Why do you need to do it?
+﻿What happens when you initialize a repository? Why do you need to do it?
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+	The folder on which you are working is deemed as a 'repository'. This means that the modifications made to a file will be tracked as per commits i.e. the function of version control.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+	Staging area contains only the modified files that are ready to be committed. Working directory may contain both committed and non-committed changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	I have no idea what this means.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branch would be really helpful in case I want to experiment with a new idea related to my project, but want to keep the original one intact for various purposes.
 
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+	Diagrams act like trees or directed graph, and reminds us of the parent-child relationship visualization.
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Merging helps combining changes in master and branch or between separate branches together. Diagram helps visualize it as a tree, which is easy to understand.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+        Committing manually helps resolve conflicts in merging. However, the automatic merging is helpful for all the equal parts of code.

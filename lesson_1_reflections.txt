@@ -1,33 +1,34 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    Fill in your answer here
+    Well, for a start, it was a really good experience. Not only did I find it super easy to spot the bug, it was also the first time I did it this way.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    Fill in your answer here
+    It will save me a lot of time finding bugs when I modify the code. Also, it may be helpful when I need a prior solution for solving a new problem.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    Fill in your answer here
+    Pros: Changes done to file get committed even if I forget to commit them.
+    Cons: Auto-commit can sometimes lead to duplication of commits if there have been no significant changes between the time of two consequent commits.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Fill in your answer here
+    Google Docs doesn't work for programming purpose, while Git does. So Git ensures that all coding moves ahead simultaneously, unlike just plain documents.
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+    The command 'git log' is used for viewing all the commit history, while 'git diff' shows the difference between any two commits.
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+    I feel more confident about making changes that may fail, because I know for sure that the earlier working version would not be lost.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    I'd try Git for .net desktop and ASP.Net development-related work.
